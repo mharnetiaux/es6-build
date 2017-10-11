@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src --out-dir dist",
-    "clean": "rm -f -r dist",
-    "start": "npm run clean && npm run build && node dist/app.js"
+    "build": "babel es6 --out-dir es5",
+    "clean": "rm -f -r es5",
+    "start": "npm run clean && npm run build && node es5/app.js"
   },
   "author": "Matthew Harnetiaux",
   "license": "ISC",
