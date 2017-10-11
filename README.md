@@ -1,2 +1,2 @@
-# es6-build
+# es6-build-es5
 simple build system
