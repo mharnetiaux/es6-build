@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src --out-dir dist",
     "clean": "rm -f -r dist",
-    "start": "npm run clean && npm run build && node dist/index2.js"
+    "start": "npm run clean && npm run build && node dist/app.js"
   },
   "author": "",
   "license": "ISC",
